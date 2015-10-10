@@ -1,4 +1,4 @@
-# ServiceOrientedOnionArchitectureSolution
+# SERVICE ORIENTED ONION ARCHITECTURE SOLUTION
 
 Example:
 
