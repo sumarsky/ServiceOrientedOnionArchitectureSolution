@@ -21,6 +21,9 @@ After the **[BL]** project is defined, the very next level in the dependency dia
 When all dependencies are resolver, next step is to create the end user project (in this solution it is console application). And last but not least, are defined the unit tests.
 
 ##Dependencies
+- EntityFramework (database access)
+- Ninject (dependency resolution)
+- Moq (mock framework for testing in isolation)
 
 ##License
 The MIT License (MIT)
