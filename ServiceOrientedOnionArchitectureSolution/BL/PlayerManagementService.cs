@@ -1,0 +1,28 @@
+﻿using System.Linq;
+using BL.Base;
+using BL.Interfaces;
+using Data.Interfaces;
+using Entities.Entities;
+
+namespace BL
+{
+    public class PlayerManagementService : BaseManagementService<Player, IPlayerRepository>, IPlayerManagementService
+    {
+        private readonly IPlayerRepository _playerRepository;
+
+        public PlayerManagementService(IPlayerRepository playerRepository)
+        {
+            _playerRepository = playerRepository;
+        }
+
+        public override IPlayerRepository Repository
+        {
+            get { return _playerRepository; }
+        }
+
+        public Player GetFirstPlayer()
+        {
+            return _playerRepository.GetAll().FirstOrDefault();
+        }
+    }
+}

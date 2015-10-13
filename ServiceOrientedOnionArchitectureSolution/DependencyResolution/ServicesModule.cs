@@ -10,6 +10,7 @@ namespace DependencyResolution
         {
             Bind<IPlayerService>().To<PlayerService>();
             Bind<IPlayerToyService>().To<PlayerToyService>();
+            Bind<IPlayerManagementService>().To<PlayerManagementService>();
         }
     }
 }

@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseManagementService.cs" />
+    <Compile Include="PlayerManagementService.cs" />
     <Compile Include="PlayerService.cs" />
     <Compile Include="PlayerToyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
