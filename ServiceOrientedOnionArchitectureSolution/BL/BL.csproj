@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\BaseManagementService.cs" />
     <Compile Include="PlayerService.cs" />
     <Compile Include="PlayerToyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\IBaseManagementService.cs" />
     <Compile Include="IPlayerService.cs" />
     <Compile Include="IPlayerToyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

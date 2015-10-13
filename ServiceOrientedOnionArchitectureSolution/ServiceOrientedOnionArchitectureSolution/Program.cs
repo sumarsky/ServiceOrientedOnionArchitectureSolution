@@ -19,7 +19,6 @@ namespace ServiceOrientedOnionArchitectureSolution
             
             var player = kernel.Get<IPlayerService>();
             Console.WriteLine(player.Play());
-            Console.WriteLine(player.GetFirstPlayer().Name);
         }
 
         public static IKernel CreateKernel()
