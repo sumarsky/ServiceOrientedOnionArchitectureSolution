@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyResolution", "Dep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceOrientedOnionArchitectureSolution.UnitTests", "ServiceOrientedOnionArchitectureSolution.UnitTests\ServiceOrientedOnionArchitectureSolution.UnitTests.csproj", "{860B2AEE-66FA-45AD-81DE-028E08E3BEEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTests", "NUnitTests\NUnitTests.csproj", "{8BDEC240-EC10-4E91-91C1-CF12190DC6F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{860B2AEE-66FA-45AD-81DE-028E08E3BEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{860B2AEE-66FA-45AD-81DE-028E08E3BEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{860B2AEE-66FA-45AD-81DE-028E08E3BEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDEC240-EC10-4E91-91C1-CF12190DC6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDEC240-EC10-4E91-91C1-CF12190DC6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDEC240-EC10-4E91-91C1-CF12190DC6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDEC240-EC10-4E91-91C1-CF12190DC6F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
