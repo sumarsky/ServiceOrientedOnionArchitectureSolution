@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+
 using Entities.Base;
 
 namespace Data.Interfaces.Base
@@ -40,7 +41,7 @@ namespace Data.Interfaces.Base
         /// </summary>
         /// <param name="where">Where clause</param>
         void Update(Expression<Func<T, bool>> where);
-        
+
         /// <summary>
         ///     Deletes entity from database
         /// </summary>

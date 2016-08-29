@@ -59,6 +59,10 @@
       <Project>{6c6907a5-ab03-4453-b33d-dd1d026c0e32}</Project>
       <Name>BL.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Data.Interfaces\Data.Interfaces.csproj">
+      <Project>{e5566717-16fa-478e-ad87-ca8bc9dba34a}</Project>
+      <Name>Data.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{9406de1d-4e09-47e0-8e6b-06e3b5396fd5}</Project>
       <Name>Data</Name>

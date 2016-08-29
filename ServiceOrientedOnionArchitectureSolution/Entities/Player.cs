@@ -1,6 +1,6 @@
 ﻿using Entities.Base;
 
-namespace Entities.Entities
+namespace Entities
 {
     public class Player : BaseEntity
     {

@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+
 using Entities.Base;
 
 namespace Data.Interfaces.Base

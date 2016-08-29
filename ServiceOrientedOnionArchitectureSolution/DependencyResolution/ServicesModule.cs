@@ -1,6 +1,7 @@
-﻿using BL;
+﻿using Ninject.Modules;
+
 using BL.Interfaces;
-using Ninject.Modules;
+using BL;
 
 namespace DependencyResolution
 {

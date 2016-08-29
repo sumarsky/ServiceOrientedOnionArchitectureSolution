@@ -4,10 +4,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Data.Interfaces.Base;
-using Entities.Base;
 
-namespace Data.Repositories.Base
+using Entities.Base;
+using Data.Interfaces.Base;
+
+namespace Data.Base
 {
     public abstract class ReadOnlyBaseRepository<T> : IReadOnlyRepository<T> where T : BaseEntity
     {

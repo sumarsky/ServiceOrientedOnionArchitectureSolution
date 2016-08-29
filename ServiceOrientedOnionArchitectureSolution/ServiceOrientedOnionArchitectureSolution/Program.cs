@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BL;
-using BL.Interfaces;
-using DependencyResolution;
 using Ninject;
 using Ninject.Modules;
+
+using BL.Interfaces;
+using DependencyResolution;
 
 namespace ServiceOrientedOnionArchitectureSolution
 {

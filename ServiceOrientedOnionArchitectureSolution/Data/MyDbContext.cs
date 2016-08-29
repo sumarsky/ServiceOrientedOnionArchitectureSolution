@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using Entities.Entities;
+
+using Entities;
 
 namespace Data
 {

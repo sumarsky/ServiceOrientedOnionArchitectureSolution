@@ -1,8 +1,9 @@
 ﻿using System.Linq;
+
+using Entities;
+using Data.Interfaces;
 using BL.Base;
 using BL.Interfaces;
-using Data.Interfaces;
-using Entities.Entities;
 
 namespace BL
 {

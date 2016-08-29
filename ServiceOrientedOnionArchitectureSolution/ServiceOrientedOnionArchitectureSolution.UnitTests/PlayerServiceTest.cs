@@ -1,8 +1,8 @@
-﻿using System;
-using BL;
-using BL.Interfaces;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+
+using BL.Interfaces;
+using BL;
 
 namespace ServiceOrientedOnionArchitectureSolution.UnitTests
 {

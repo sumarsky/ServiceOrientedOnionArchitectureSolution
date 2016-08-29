@@ -1,4 +1,4 @@
-﻿using Entities.Entities;
+﻿using Entities;
 
 namespace BL.Interfaces
 {

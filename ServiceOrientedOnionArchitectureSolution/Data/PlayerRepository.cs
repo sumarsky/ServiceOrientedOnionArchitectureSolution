@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entities;
 using Data.Interfaces;
-using Data.Repositories.Base;
-using Entities.Entities;
+using Data.Base;
 
-namespace Data.Repositories
+namespace Data
 {
     public class PlayerRepository : BaseRepository<Player>, IPlayerRepository
     {

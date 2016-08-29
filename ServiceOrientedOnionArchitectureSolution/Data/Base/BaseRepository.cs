@@ -5,10 +5,11 @@ using System.Data.Entity.Validation;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Data.Interfaces.Base;
-using Entities.Base;
 
-namespace Data.Repositories.Base
+using Entities.Base;
+using Data.Interfaces.Base;
+
+namespace Data.Base
 {
     /// <summary>
     ///     Represents the base repository class.

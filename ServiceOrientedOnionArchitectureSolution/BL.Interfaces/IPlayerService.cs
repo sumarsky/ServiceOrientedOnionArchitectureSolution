@@ -1,5 +1,4 @@
-﻿
-namespace BL.Interfaces
+﻿namespace BL.Interfaces
 {
     public interface IPlayerService
     {

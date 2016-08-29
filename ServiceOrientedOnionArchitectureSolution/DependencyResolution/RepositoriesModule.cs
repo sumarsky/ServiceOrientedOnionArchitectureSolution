@@ -1,6 +1,7 @@
-﻿using Data.Interfaces;
-using Data.Repositories;
-using Ninject.Modules;
+﻿using Ninject.Modules;
+
+using Data.Interfaces;
+using Data;
 
 namespace DependencyResolution
 {

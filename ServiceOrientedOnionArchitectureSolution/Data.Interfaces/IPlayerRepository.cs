@@ -1,5 +1,5 @@
-﻿using Data.Interfaces.Base;
-using Entities.Entities;
+﻿using Entities;
+using Data.Interfaces.Base;
 
 namespace Data.Interfaces
 {

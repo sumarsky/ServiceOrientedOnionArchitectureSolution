@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using BL.Interfaces;
-using Entities.Entities;
+﻿using BL.Interfaces;
 
 namespace BL
 {
