@@ -10,6 +10,8 @@ Most independent project is the **[Entities]** project, the place where all enti
 
 The **[Entities]** are used everywhere in the solution. **[Data]** and **[BL.Interfaces]** projects are only dependent on **[Entities]**, therefore they are at second level in the dependency graph.
 
+**[Data.Interfaces]** project contains repository pattern and interfaces for manipulation of **[Entities]**.
+
 **[Data]** project contains Entity Framework code first model. Repository pattern is implemented for database communication.
 
 **[BL.Interfaces]** is the project where the interfaces for the business logic are stored.
